@@ -45,4 +45,10 @@ Composer这么牛,会不会很难玩?其实很简单:
   }
 }
 ```
+这里我们使用了当下比较流行的日志模块monolog最为示例。
 + 执行`composer install`,composer会自动生成一个vendor文件夹,其中包涵vendor/autoload.php统一自动加载文件,以及`require`配置中的依赖包
++ 执行结果和过程如下图:  
+composer update执行过程  
+![Composer-update](../resources/PSR规范与Composer/composer-update.png)  
+目录结构  
+![directory](../resources/PSR规范与Composer/directory.png)  
