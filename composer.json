@@ -1,0 +1,20 @@
+{
+  "name": "jenner/simple_framework_based_on_composer", // 你的包名:组织名/包名
+  "license": "MIT", // 开源协议
+  "authors": [ // 作者信息
+    {
+      "name": "Jenner",
+      "email": "hypxm@qq.com",
+      "homepage" : "http://www.huyanping.cn"
+    }
+  ],
+  "require": { // 依赖信息
+    "php": ">=5.4.0",
+    "monolog/monolog": "1.17.1"
+  },
+  "autoload": { // 自动加载规则
+    "psr-4": {
+      "Jenner\\SimpleFramework\\": "src/"
+    }
+  }
+}
