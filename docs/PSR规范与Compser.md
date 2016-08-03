@@ -19,7 +19,7 @@
 + [PSR-7 HTTP消息接口规范](https://github.com/summerblue/psr.phphub.org/blob/master/psrs/%E3%80%8CPSR%20%E8%A7%84%E8%8C%83%E3%80%8DPSR-7%20HTTP%20%E6%B6%88%E6%81%AF%E6%8E%A5%E5%8F%A3%E8%A7%84%E8%8C%83.md)
 
 ## Composer
-而Composer作为做成功的PSR规范推行者应运而生;Composer根据PSR规范的编码风格,自动加载等规范,统一并给出了PHP Package编写的方案;这些package
+而Composer作为做成功的PSR规范推行者被广泛使用;Composer根据PSR规范的编码风格,自动加载等规范,统一并给出了PHP Package编写的方案;这些package
 可以轻松的相互依赖而不必担心命名冲突、自动加载、代码风格的问题。当下的流行框架大多已经基于Composer做了重构,目前最流行的Laravel框架也是基于Compser实现。
 
 Composer这么牛,会不会很难玩?其实很简单:
