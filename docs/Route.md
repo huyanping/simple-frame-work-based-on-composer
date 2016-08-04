@@ -82,4 +82,28 @@ switch ($routeInfo[0]) {
 }
 ```
 
-在我们的项目中,决定采用`fastroute`作为路由器
+在我们的项目中,决定采用`fastroute`作为路由器。路由在框架中作为配置文件单独存放,这里先在composer.json中引入`fastroute`:
+```json
+{
+  "name": "jenner/simple_framework_based_on_composer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jenner",
+      "email": "hypxm@qq.com",
+      "homepage" : "http://www.huyanping.cn"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "monolog/monolog": "1.17.1",
+    "fastroute": "v1.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jenner\\SimpleFramework\\": "src/"
+    }
+  }
+}
+```
+执行`composer update`
